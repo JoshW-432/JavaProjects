@@ -127,7 +127,7 @@ public class Write {
 		//if they did say yes the game begins
 		if (response.equals("yes")) {
 			//requests the user to choose a language to answer with
-			System.out.print("Do you want to answer with Spanish or English?\n-> ");
+			System.out.print("\nDo you want to answer with Spanish or English?\n-> ");
 			//takes in the input
 			response = fResponse();
 			//a couple options for what spanish could be
@@ -231,7 +231,7 @@ public class Write {
 		}
 		//instructions and consent
 		System.out.print("\nThis is a study game where you translate words.\n"
-				+ "Do you want to play? (If yes say \"yes\")\n-> ");
+				+ "Do you want to play? (If yes type \"yes\")\n-> ");
 		//while the player wants to play the game is initiated
 		wantPlay = true;
 		while (wantPlay) {
